@@ -4,7 +4,156 @@
  *
  * Site Styles
  *****************************************************************************/
+body {
+  height: 100%;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('../media/video/loop_poster.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
 
- html {
-     color: green;
+
+/******** header main nav ********/
+
+ header {
+   max-height: 500px;
+   background-image: url('../img/official_header.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
  }
+
+header .main-nav {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  margin-top: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-size: 1.2em; 
+  color: #f5f6fd;
+  text-transform: uppercase;
+}
+
+.main-nav li{
+  display: inline-block;
+  position: relative;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.main-nav a:hover {
+  color: #6cb33f;
+}
+
+h1 {
+  display: none;
+}
+
+h2, h3, h4, h5, h6{
+  color: white;
+  font-size: 30px;
+  font family: Tahoma, Geneva, sans-serif;
+}
+
+header p{
+  font-size: 2em;
+  right: 0;
+  left: 0;
+  width: 90%;
+  margin-left: 75px;
+  margin-top: 0;
+  color: #f5f6fd;
+}
+
+.subtitle {
+  margin: 0;
+  padding-top: 370px;
+  padding-left: 50px;
+  color: darkblue;
+}
+
+
+#social {
+  position: fixed;
+  padding: 3px;
+  top: 50px;
+  right: 0;
+  width: 100px;
+}
+
+#social ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#social li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+/*****watch*****/
+
+#watch{
+  margin-top: 15px;
+  background-color: #00bfff;
+  margin: 15px;
+  padding: 15px;
+}
+
+
+
+/*****listen*****/
+
+
+#listen{
+  margin-top: 15px;
+  background-color: #00bfff;
+  margin: 15px;
+  padding: 15px;
+}
+
+/*****about*****/
+
+#about p.lead {
+ background-color: #00bfff;
+ margin-top: 15px;
+ font-size: 25px;
+ color: white;
+ display: block;
+ padding: 15px;
+ }
+
+#about{
+  padding: 15px;
+  background-color: #00bfff;
+  margin: 15px;
+}
+
+/***** weybec-people***/
+
+.weybec-people li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  margin: 15px;
+  
+} 
+#weybec{
+  margin: 15px;
+  padding: 15px;
+}
+
+footer p {
+  background-color: #00bfff;
+  padding: 10px;
+  text-align: center;
+}
