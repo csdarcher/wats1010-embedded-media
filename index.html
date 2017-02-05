@@ -7,27 +7,21 @@
         <title>Monkaa: Watch and Download the animated short film</title>
         <meta name="description" content="Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Watch and download the animated short film here--for free!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="monkaa.ico">
+        <link rel="shortcut icon" href="/monkaa.ico">
         <link rel="stylesheet" href="css/main.css">
     </head>
 
     <body>
 
         <header>
-            <!-- TODO: Create an elegant header using either one of the images
-                 or the video loop included in this repository. Make sure the
-                 page navigation is presented clearly and in a user-friendly
-                 way. Also, be sure to choose the proper image format as you
-                 insert backgrounds and other images into the page. Balance
-                 image quality with file size to achieve the best user
-                 experience. -->
             <h1>Monkaa</h1>
             <p class="subtitle">An open source short film</p>
             <nav>
                 <ul class="main-nav">
+                    <li><a href="#about">About</a></li>
                     <li><a href="#watch">Watch</a></li>
                     <li><a href="#listen">Listen</a></li>
-                    <li><a href="#about">About</a></li>
+           
                 </ul>
             </nav>
         </header>
@@ -35,48 +29,42 @@
         <aside id="social">
             <h2>Share</h2>
             <ul class="social-links">
-                <li class="twitter"><a href="http://twitter.com"><img src="../social/glyphicons-social-32-twitter.png" alt="Twitter Icon"/></a></li>
-                <li class="facebook"><a href="http://facebook.com"><img src="../social/glyphicons-social-31-facebook.png" alt="Facebook Icon"/></a></li>
-                <li class="instagram"><a href="http://instagram.com"><img src="../social/glyphicons-social-33-instagram.png" alt="Instagram Icon"/></a></li>
+                <li class="twitter"><a href="http://twitter.com"><img src="/social/glyphicons-social-32-twitter.png" alt="Twitter Icon"/></a></li>
+                <li class="facebook"><a href="http://facebook.com"><img src="/social/glyphicons-social-31-facebook.png" alt="Facebook Icon"/></a></li>
+                <li class="instagram"><a href="http://instagram.com"><img src="/social/glyphicons-social-33-instagram.png" alt="Instagram Icon"/></a></li>
             </ul>
         </aside>
-
+        <section id="about">
+            <h2>About</h2>
+                <!--moved to beginning of page-->
+            <p class="lead">Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Exploring his new superpowers, Monkaa zooms through an entire universe. </p>
+      </section>
         <section id="watch">
             <h2>Watch</h2>
            <video  width="600" height="540" controls>
-            <source src="media/video/monkaa.mp4" type="video/mp4">
+            <source src="media/video/monkaa.mp4" type="video/mp4"> 
             <source src="media/video/monkaa_1080p.webm" type="video/webm">
           </video>
-
-            <!-- TODO: Style an elegant download link to download the video. -->
-            <h3>Download the video</h3>
+            <h3>Download the video</h3> 
             <p>
                 Click below to download either MP4 or WEBM versions of this video.
                 <br>
-                <a class="download-button" href="media/video/monkaa.mp4">.MP4 Version</a>
-                <a class="download-button" href="media/video/monkaa_1080p.webm">.WEBM Version</a>
+                <a href="media/video/monkaa.mp4"><i class="fa fa-download" aria-hidden="true"></i><img src="/buttons/button_download-mp4.png" alt="download mp4 Icon"/></a></li>
+                <a href="media/video/monkaa_1080p.webm"><i class="fa fa-download" aria-hidden="true"></i><img src="/buttons/button_download-webm.png" alt="download webm Icon"/></a></li>
             </p>
         </section>
 
         <section id="listen">
-            <h2>Listen</h2>
+           <h2>Listen</h2>
             <audio controls>
               <source src="media/audio/monkaa_soundtrack.mp3" type="audio/mpeg">
             </audio>
-
-            <!-- TODO: Style an elegant download link to download the video. -->
             <p>
-                <a class="download-button" href="media/audio/monkaa_soundtrack.mp3">Download as MP3</a>
+                <a href="media/audio/monkaa_soundtrack.mp3"></a><i class="fa fa-download" aria-hidden="true"></i><img src="/buttons/button_download-mp3.png" alt="download mp3 Icon"/></a></li>
             </p>
         </section>
-
-        <section id="about">
-            <!-- TODO: Style this text so it is comfortable to read and nice
-                 to look at. Style the "lead" paragraph to be more eye-catching
-                 so that text stands out. -->
-            <h2>About</h2>
-            <p class="lead">Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Exploring his new superpowers, Monkaa zooms through an entire universe. </p>
-
+        <section id="weybec">
+            <h2>Weybec People</h2>
             <ul class="weybec-people">
               
                 <li>
@@ -101,13 +89,14 @@
             <p>Project Monkaa is a 5-minute short animated movie, entirely made with Blender and GIMP and other Free/Open Software programs. It has been released as an Open Movie, with all production files and tutorials available on <a href="https://cloud.blender.org/open-movie/monkaa/">Blender Cloud</a> under a CC-BY license, as well as on a DVD available in the <a href="http://www.blender3d.org/e-shop/">Blender Store</a>.</p>
         </section>
 
-        <footer><!-- TODO: Style the footer appropriately. -->
+        <footer>
             <p>This page was created and designed by Carly Darcher 2017. <i>Monkaa</i> was created by <a href="http://www.weybec.com/">Weybec</a> and is used here under a CC-BY license.</p>
             <nav>
                 <ul class="main-nav">
+                    <li><a href="#about">About</a></li>
                     <li><a href="#watch">Watch</a></li>
                     <li><a href="#listen">Listen</a></li>
-                    <li><a href="#about">About</a></li>
+                   
                 </ul>
             </nav>
         </footer>
